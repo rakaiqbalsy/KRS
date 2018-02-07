@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="e.sevenni_raka.krs.Kurikulum">
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/tabel">
+\
+    <TableRow
+        android:padding="5dp"
+        android:id="@+id/rowup"
+        android:background="@android:color/holo_blue_light">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="NO"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="KODE"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="MATA KULIAH"/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="SKS"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="1. "/>
+//1
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15401"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Basis Data"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+    </TableRow>
+//2
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="2. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15401L"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Praktikum Basis Data"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+    </TableRow>
+//3
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="3. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15402"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Rekayasa Perangkat Lunak"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+    </TableRow>
+//4
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="4. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15402L"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Praktikum Rekayasa Perangkat Lunak"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+    </TableRow>
+//5
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="5. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15403"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Pemrograman Beorientasi Objek"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+    </TableRow>
+//6
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="6. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15403L"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Praktikum Pemrograman Beorientasi Objek"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="1"/>
+    </TableRow>
+//7
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="7. "/>
+i
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15404"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Teori Bahasa dan Otomata"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+    </TableRow>
+//8
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="8. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15405"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Strategi Algoritma"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+    </TableRow>
+//9
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="9. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="IF15406"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Sistem Operasi"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="3"/>
+    </TableRow>
+//10
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+        <TextView
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:text="10. "/>
+
+        <TextView
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="UN15407"/>
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:text="Akhlaq Tasawuf"/>
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="2"/>
+    </TableRow>
+
+    <TableRow
+        android:padding="5dp"
+        android:background="#ECEFF1">
+
+    </TableRow>
+</TableLayout>
+</LinearLayout>

@@ -17,7 +17,6 @@ public class VisiMisi extends AppCompatActivity {
         webView.loadData("<p style=\"text-align: justify\">"+text+"</p>","text/html", "UTF-8");
 
         WebView webView1 = (WebView) findViewById(R.id.isimisi);
-
         String text1 = "1. Menyelenggarakan dan mengelola program studi yang profesional, akuntabel, dan berdaya saing untuk memperkuat pengembangan ilmu pengetahun dan teknologi bidang informatika pada tingkat nasional maupun internasional berbasis wahyu memandu ilmu." +
                 "2. Menyelenggarakan pendidikan tinggi bidang informatika yang mampu menciptakan lulusan yang terampil, profesional, berjiwa entrepreneurship dan berakhlak karimah."+
                 "3. Menyelenggarakan penelitian guna mengembangkan dan menerapkan ilmu pengetahuan dan teknologi bidang informatika yang dilandasi nilai Islami." +
