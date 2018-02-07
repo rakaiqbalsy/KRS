@@ -8,23 +8,55 @@
     android:background="#ebedea"
     tools:context="e.sevenni_raka.krs.VisiMisi">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="VISI"
-        android:typeface="sans"
-        android:textStyle="bold"
-        android:textColor="#000"
-        android:textSize="20sp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="VISI"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp"/>
 
-    <WebView
-        android:id="@+id/isivisi"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+            <WebView
+                android:id="@+id/isivisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
 
-    <WebView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/isimisi">
-    </WebView>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MISI"
+                android:typeface="sans"
+                android:textStyle="bold"
+                android:textColor="#000"
+                android:textSize="20sp"/>
+
+            <WebView
+                android:id="@+id/isimisi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="1. Menyelenggarakan dan mengelola program studi yang profesional, akuntabel, dan berdaya saing untuk memperkuat pengembangan ilmu pengetahun dan teknologi bidang informatika pada tingkat nasional maupun internasional berbasis wahyu memandu ilmu.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="2. Menyelenggarakan pendidikan tinggi bidang informatika yang mampu menciptakan lulusan yang terampil, profesional, berjiwa entrepreneurship dan berakhlak karimah.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="3. Menyelenggarakan penelitian guna mengembangkan dan menerapkan ilmu pengetahuan dan teknologi bidang informatika yang dilandasi nilai Islami.">
+            </TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="4. Menyelenggarakan pengabdian kepada masyarakat, untuk menyebarluaskan pengetahuan dan teknologi bidang informatika, guna mengembangkan potensi dan daya saing masyarakat yang berakar pada nilai Islami. ">
+            </TextView>
 </LinearLayout>
